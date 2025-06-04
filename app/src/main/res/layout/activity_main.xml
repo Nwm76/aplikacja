@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/titlePlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plansza Gracza"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp" />
+
+        <GridLayout
+            android:id="@+id/playerBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:rowCount="5"
+            android:layout_gravity="center">
+
+            <!-- Przycisków 5x5 = 25 -->
+            <!-- ID: button_player_00 do button_player_44 -->
+            <!-- Generujemy 25 przycisków -->
+            <!-- W razie potrzeby można to zautomatyzować w kodzie Kotlin -->
+
+            <!-- Przykład jednego rzędu -->
+            <Button android:id="@+id/button_player_00" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_01" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_02" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_03" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_04" android:layout_width="50dp" android:layout_height="50dp" />
+
+            <Button android:id="@+id/button_player_10" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_11" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_12" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_13" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_14" android:layout_width="50dp" android:layout_height="50dp" />
+
+            <Button android:id="@+id/button_player_20" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_21" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_22" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_23" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_24" android:layout_width="50dp" android:layout_height="50dp" />
+
+            <Button android:id="@+id/button_player_30" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_31" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_32" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_33" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_34" android:layout_width="50dp" android:layout_height="50dp" />
+
+            <Button android:id="@+id/button_player_40" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_41" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_42" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_43" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_player_44" android:layout_width="50dp" android:layout_height="50dp" />
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/titleBot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plansza Bota"
+            android:textSize="20sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
+
+        <GridLayout
+            android:id="@+id/botBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:rowCount="5"
+            android:layout_gravity="center">
+
+            <!-- ID: button_bot_00 do button_bot_44 -->
+            <!-- Druga plansza -->
+
+            <Button android:id="@+id/button_bot_00" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_01" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_02" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_03" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_04" android:layout_width="50dp" android:layout_height="50dp" />
+
+            <Button android:id="@+id/button_bot_10" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_11" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_12" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_13" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_14" android:layout_width="50dp" android:layout_height="50dp" />
+
+            <Button android:id="@+id/button_bot_20" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_21" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_22" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_23" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_24" android:layout_width="50dp" android:layout_height="50dp" />
+
+            <Button android:id="@+id/button_bot_30" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_31" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_32" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_33" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_34" android:layout_width="50dp" android:layout_height="50dp" />
+
+            <Button android:id="@+id/button_bot_40" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_41" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_42" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_43" android:layout_width="50dp" android:layout_height="50dp" />
+            <Button android:id="@+id/button_bot_44" android:layout_width="50dp" android:layout_height="50dp" />
+        </GridLayout>
+        <TextView
+            android:id="@+id/textView_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informacje..."
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+</ScrollView>
+
