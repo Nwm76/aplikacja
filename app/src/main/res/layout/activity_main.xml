@@ -26,10 +26,6 @@
             android:rowCount="5"
             android:layout_gravity="center">
 
-            <!-- Przycisków 5x5 = 25 -->
-            <!-- ID: button_player_00 do button_player_44 -->
-            <!-- Generujemy 25 przycisków -->
-            <!-- W razie potrzeby można to zautomatyzować w kodzie Kotlin -->
 
             <!-- Przykład jednego rzędu -->
             <Button android:id="@+id/button_player_00" android:layout_width="50dp" android:layout_height="50dp" />
@@ -80,8 +76,6 @@
             android:rowCount="5"
             android:layout_gravity="center">
 
-            <!-- ID: button_bot_00 do button_bot_44 -->
-            <!-- Druga plansza -->
 
             <Button android:id="@+id/button_bot_00" android:layout_width="50dp" android:layout_height="50dp" />
             <Button android:id="@+id/button_bot_01" android:layout_width="50dp" android:layout_height="50dp" />
